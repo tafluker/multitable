@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Multiplication MultiTable</string>
+    <string name="chart_int">0</string>
+    <string name="chart_int_up">+</string>
+    <string name="chart_int_down">-</string>
+    <string name="multi_1">%1$d X %2$d</string>
+    <string name="multi_2">%1$d X %2$d</string>
+    <string name="multi_3">%1$d X %2$d</string>
+    <string name="multi_4">%1$d X %2$d</string>
+    <string name="multi_5">%1$d X %2$d</string>
+    <string name="multi_6">%1$d X %2$d</string>
+    <string name="multi_7">%1$d X %2$d</string>
+    <string name="multi_8">%1$d X %2$d</string>
+    <string name="multi_9">%1$d X %2$d</string>
+    <string name="multi_10">%1$d X %2$d</string>
+    <string name="multi_11">%1$d X %2$d</string>
+    <string name="multi_12">%1$d X %2$d</string>
+</resources>

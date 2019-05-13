@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/chart_int"
+        android:layout_width="58dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/chart_int"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/chart_int_up"
+        app:layout_constraintStart_toEndOf="@+id/chart_int_down"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/chart_int_up"
+        android:layout_width="58dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:background="@android:color/white"
+        android:text="@string/chart_int_up"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="addChartInt"/>
+
+    <Button
+        android:id="@+id/chart_int_down"
+        android:layout_width="58dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="68dp"
+        android:background="@android:color/white"
+        android:text="@string/chart_int_down"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="subtractChartInt"/>
+
+    <Button
+        android:id="@+id/multi2"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="172dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti2"
+        android:text="@string/multi_2"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/multi3"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti3"
+        android:text="@string/multi_3"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/multi5"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti5"
+        android:text="@string/multi_5"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multi2" />
+
+    <Button
+        android:id="@+id/multi7"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti7"
+        android:text="@string/multi_7"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multi4" />
+
+    <Button
+        android:id="@+id/multi1"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="172dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti1"
+        android:text="@string/multi_1"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/multi12"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti12"
+        android:text="@string/multi_12"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multi9"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/multi11"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti11"
+        android:text="@string/multi_11"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multi8" />
+
+    <Button
+        android:id="@+id/multi10"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti10"
+        android:text="@string/multi_10"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multi7" />
+
+    <Button
+        android:id="@+id/multi8"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti8"
+        android:text="@string/multi_8"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multi5" />
+
+    <Button
+        android:id="@+id/multi4"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti4"
+        android:text="@string/multi_4"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multi1" />
+
+    <Button
+        android:id="@+id/multi6"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti6"
+        android:text="@string/multi_6"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multi3" />
+
+    <Button
+        android:id="@+id/multi9"
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showMulti9"
+        android:text="@string/multi_9"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multi6" />
+
+</android.support.constraint.ConstraintLayout>
